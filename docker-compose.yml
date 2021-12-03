@@ -21,7 +21,7 @@ services:
     environment:
       LANG: 'ja_JP.UTF-8'
       TZ: 'Asia/Tokyo'
-      APP_NAME: 'Laravel'
+      APP_NAME: 'CakePHP'
       APP_ENV: 'development'
       APP_DEBUG: 'true'
       APP_URL: 'http://localhost'
