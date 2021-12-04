@@ -291,7 +291,8 @@ return [
          */
         'default' => [
             'className' => Connection::class,
-            'driver' => Mysql::class,
+//            'driver' => Mysql::class,
+            'driver' => \Cake\Database\Driver\Postgres::class,
             'persistent' => false,
             'timezone' => 'UTC',
 
